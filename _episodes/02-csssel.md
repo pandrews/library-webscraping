@@ -386,7 +386,7 @@ Using this syntax, CSS selectors allow us to specify the exact _path_ to a set o
 If we want to select all the `blockquote` elements visible on this page, we can write:
 
 ~~~
-document.querySelectorAll('html > body > div > blockquote')
+document.querySelectorAll('html > body > div > article > blockquote')
 ~~~
 {: .source}
 
